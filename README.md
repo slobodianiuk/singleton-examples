@@ -1,0 +1,1 @@
+# training-patterns-singleton-examples
