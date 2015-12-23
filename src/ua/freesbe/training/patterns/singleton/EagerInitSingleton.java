@@ -1,11 +1,17 @@
 package ua.freesbe.training.patterns.singleton;
 
+/**
+ * + Simple realization
+ * + Thread safe
+ *
+ * - Not lazy initialization
+ */
 public class EagerInitSingleton {
 
-    public static EagerInitSingleton getInstance() {
-        return instance;
+    public static Object getInstance() {
+        return INSTANCE;
     }
 
-    private static EagerInitSingleton instance = new EagerInitSingleton();
+    private static final Object INSTANCE = new Object();
     private EagerInitSingleton(){}
 }

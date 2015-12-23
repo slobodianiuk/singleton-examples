@@ -1,5 +1,11 @@
 package ua.freesbe.training.patterns.singleton;
 
+/**
+ *  + Lazy initialization
+ *  + Possibility to handle exceptions during the creation of instance
+ *
+ *  - Thread unsafe
+ */
 public class StaticBlockInitSingleton {
 
     public static StaticBlockInitSingleton getInstance() {

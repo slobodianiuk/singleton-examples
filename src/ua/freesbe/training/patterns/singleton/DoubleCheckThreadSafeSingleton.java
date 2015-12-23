@@ -1,5 +1,11 @@
 package ua.freesbe.training.patterns.singleton;
 
+/**
+ * + Lazy initialization
+ * + High performance
+ *
+ * - JDK 1.5+ required
+ */
 public class DoubleCheckThreadSafeSingleton {
 
     public DoubleCheckThreadSafeSingleton getInstance() {
